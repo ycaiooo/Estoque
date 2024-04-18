@@ -36,8 +36,10 @@ namespace Course
             qte = int.Parse(Console.ReadLine());
             p.RemoverProdutos(qte);
 
-            Console.WriteLine();
+            Console.WriteLine(); 
+            // print dados atualizados
             Console.WriteLine("Dados autualizados:" + p);
+            
         }
     }
 }
